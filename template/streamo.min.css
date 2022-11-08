@@ -116,6 +116,13 @@ body{
     font-size: 10pt;
     margin: 7px 0;
 }
+.stream{
+	background: #000;
+}
+.stream-server{
+	width: inherit;
+	height: auto;
+}
 .dl-con{
     list-style-type: none;
     margin: 0;
@@ -148,7 +155,7 @@ body{
 }
 .details > p{
     font-size: 8pt;
-    color: grey;
+    color: ghostwhite;
     margin: 0 0 10px 0;
 }
 footer{
