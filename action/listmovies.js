@@ -1,5 +1,11 @@
 let movies = [
     {
+    	title: "Gotoubun no Hanayome",
+        cover: "https://i.animepahe.com/posters/f055be0bbf97ca2addb5e83c85d455220b035bfdc8d52a45a4ab8eabecb5225b.jpg",
+        link: "/watch/Animation/Gotoubun no Hanayome.html",
+        id: "4"
+    },
+    {
 	    title: "Tinker Bell and the Legend of the NeverBeast",
         cover: "https://img.myflixer.to/xxrz/250x400/201/c2/49/c2499fd714bc5068fb7f89fb01df1647/c2499fd714bc5068fb7f89fb01df1647.jpg",
         link: "/watch/Tinkerbell/tinkerbell-and-the-legend-of-the-neverbeast.html",
