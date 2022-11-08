@@ -1,4 +1,9 @@
 let movies = [
+     {
+		title: "Spider Man: Homecoming",
+		cover:"https://img.yts.mx/assets/images/movies/spider_man_homecoming_2017/medium-cover.jpg",
+		link:"/watch/movies/spider-man-homecoming.html"
+	},
     {
 		title:"Luck",
 		cover:"https://123moviesgoto.com/_sf/239/83970431.jpg",
