@@ -34,7 +34,15 @@
             <h1 id="title">Tinker Bell</h1>
             <p id="watch-detail">»Stream Tinker Bell</p>
             
+            <div class="server">
+            	 <h3>Select Server:</h3>
+            	  <select name="server" id="server" >
+            			<option value="upstream">UpStream</option>
+            			<option value="doodstream">DoodStream</option>
+				  </select>
+		   </div>
             <div class="stream">
+            	
                 <iframe src="https://upstream.to/embed-cbxmcnjadf01.html" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" width="100%" height="auto" allowfullscreen></iframe>
                 <ul class="dl-con">
                     <li><a href="https://upstream.to/cbxmcnjadf01">Download HD</a></li>
@@ -67,5 +75,19 @@
     
     <script src="/action/jquery-3.6.1.min.js"></script>
     <script src="/action/streamo.min.js"></script>
+    <script>
+    	$(document).ready(function(){
+    	   $('#server').change(function(){
+      	  	switch($('#server option:selected').val()) {
+           		 case 'upstream':
+              	  	$("iframe").src = "https://upstream.to/embed-cbxmcnjadf01.html";
+          	  	break;
+           		 case 'doodstream':
+                		$("iframe").src = "https://dood.re/e/d6zn80gy58i9";
+           	 	break;
+     	 	  }
+    		});
+        });
+	</script>
 </body>
 </html>
