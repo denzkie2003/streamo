@@ -128,11 +128,12 @@ body{
 	display: flex;
 	padding: 7px 0;
 }
-.server h3{
+.server h3 a{
 	color: orange;
 }
 select{
-	color: white
+	color: white;
+	background: black;
 }
 select:focus{outline: none}
 .dl-con{
