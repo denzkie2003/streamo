@@ -120,10 +120,21 @@ body{
 	background: #000;
 	position: relative;
 }
-.stream-server{
+.server{
 	width: inherit;
 	height: auto;
 }
+.server{
+	display: flex;
+	padding: 7px 0;
+}
+.server h3{
+	color: orange;
+}
+select{
+	color: white
+}
+select:focus{outline: none}
 .dl-con{
     list-style-type: none;
     margin: 0;
