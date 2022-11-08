@@ -1,13 +1,27 @@
 let movies = [
     {
-        title: "Tinker Bell",
-        cover: "https://img.myflixer.to/xxrz/250x400/201/59/bf/59bfee5228057061f27f40b3e1bd9292/59bfee5228057061f27f40b3e1bd9292.jpg",
-        link: "/watch/Tinkerbell/tinker-bell-2008.html"
+	    title: "Tinker Bell and the Legend of the NeverBeast",
+        cover: "https://img.myflixer.to/xxrz/250x400/201/c2/49/c2499fd714bc5068fb7f89fb01df1647/c2499fd714bc5068fb7f89fb01df1647.jpg",
+        link: "/watch/Tinkerbell/tinkerbell-and-the-legend-of-the-neverbeast.html",
+        id: "3"
     },
     {
-        title: "Tinkerbell - Secret of the Wings",
+        title: "Tinker Bell and the Great Fairy Rescue",
+        cover: "https://img.myflixer.to/xxrz/250x400/201/70/46/7046bf4eb06b409c57e31403f2879189/7046bf4eb06b409c57e31403f2879189.jpg",
+        link: "/watch/Tinkerbell/tinkerbell-and-the-great-fairy-rescue.html",
+        id: "2"
+    },
+    {
+        title: "Tinker Bell",
+        cover: "https://img.myflixer.to/xxrz/250x400/201/59/bf/59bfee5228057061f27f40b3e1bd9292/59bfee5228057061f27f40b3e1bd9292.jpg",
+        link: "/watch/Tinkerbell/tinker-bell-2008.html",
+        id: "1"
+    },
+    {
+        title: "Tinker Bell - Secret of the Wings",
         cover: "https://img.myflixer.to/xxrz/250x400/201/67/5a/675a19ae564078fbbb380198f32155fa/675a19ae564078fbbb380198f32155fa.jpg",
-        link: "/watch/Tinkerbell/tinkerbell-secret-of-the-wings.html"
+        link: "/watch/Tinkerbell/tinkerbell-secret-of-the-wings.html",
+        id: "0"
     }
 ];
 
