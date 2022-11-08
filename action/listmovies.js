@@ -1,5 +1,21 @@
 let movies = [
     {
+		title:"Luck",
+		cover:"https://123moviesgoto.com/_sf/239/83970431.jpg",
+		link:"/watch/Animation/Luck the movie.html"
+	},
+    {
+		title:"My Sweet Monster",
+		cover:"https://img.yts.mx/assets/images/movies/my_sweet_monster_2021/medium-cover.jpg",
+		link:"/watch/Animation/My Sweet Monster.html"
+	},
+    {
+    	title: "SAO Progressive Movie, Aria in the Starless Night",
+        cover: "https://i.animepahe.com/posters/f385a207f5f4b07f62230c92a46c41942f7922c70fb2b4af69e72db360f78554.jpg",
+        link: "/watch/Animation/SAO Progressive Hoshi Naki Yuro no Aira.html",
+        id: "5"
+    },
+    {
     	title: "Gotoubun no Hanayome",
         cover: "https://i.animepahe.com/posters/f055be0bbf97ca2addb5e83c85d455220b035bfdc8d52a45a4ab8eabecb5225b.jpg",
         link: "/watch/Animation/Gotoubun no Hanayome.html",
