@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1"/>
     <meta name="description" content="Stream & Download Movies for Free"/>
-    <meta property="og: description " content="Stream & Download Movies for Free"/>
+    <meta property="og:description " content="Stream & Download Movies for Free"/>
     <meta property="og:title" content="Stream Tinker Bell "/>
-    <meta property="og:image"  content="https://www.streamo.ml/streamocover.jpg"/>
+    <meta property="og:image"  content="https://img.myflixer.to/xxrz/250x400/201/59/bf/59bfee5228057061f27f40b3e1bd9292/59bfee5228057061f27f40b3e1bd9292.jpg"/>
     <meta property="og:url" content="https://streamo.ml"/>
     <title>Stream Tinker Bell</title>
     <link rel="stylesheet" href="/template/streamo.min.css">
@@ -34,15 +34,8 @@
             <h1 id="title">Tinker Bell</h1>
             <p id="watch-detail">»Stream Tinker Bell</p>
             
-            <div class="server">
-            	 <h3>Select Server:</h3>
-            	  <select name="server" id="server" >
-            			<option value="upstream">UpStream</option>
-            			<option value="doodstream">DoodStream</option>
-				  </select>
-		   </div>
             <div class="stream">
-            	
+            
                 <iframe src="https://upstream.to/embed-cbxmcnjadf01.html" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" width="100%" height="auto" allowfullscreen></iframe>
                 <ul class="dl-con">
                     <li><a href="https://upstream.to/cbxmcnjadf01">Download HD</a></li>
@@ -75,19 +68,6 @@
     
     <script src="/action/jquery-3.6.1.min.js"></script>
     <script src="/action/streamo.min.js"></script>
-    <script>
-    	$(document).ready(function(){
-    	   $('#server').change(function(){
-      	  	switch($('#server option:selected').val()) {
-           		 case 'upstream':
-              	  	$("iframe").src = "https://upstream.to/embed-cbxmcnjadf01.html";
-          	  	break;
-           		 case 'doodstream':
-                		$("iframe").src = "https://dood.re/e/d6zn80gy58i9";
-           	 	break;
-     	 	  }
-    		});
-        });
-	</script>
+    
 </body>
 </html>
