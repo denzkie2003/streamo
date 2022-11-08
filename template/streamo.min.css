@@ -144,6 +144,17 @@ body{
 .dl-con > li a:hover{
     color: orangered
 }
+iframe{
+	width: 100%;
+	padding:0;
+	marging: 0;
+	height: 300px;
+}
+@media screen and (min-width: 800px){
+	iframe{
+		height: auto;
+	}
+}
 .details{
     padding: 10px;
 }
