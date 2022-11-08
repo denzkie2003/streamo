@@ -118,6 +118,7 @@ body{
 }
 .stream{
 	background: #000;
+	position: relative;
 }
 .stream-server{
 	width: inherit;
@@ -127,7 +128,7 @@ body{
     list-style-type: none;
     margin: 0;
     padding: 0;
-    display: flex;
+    display: none;
     justify-content: space-between;
 }
 .dl-con > li{
@@ -143,6 +144,16 @@ body{
 }
 .dl-con > li a:hover{
     color: orangered
+}
+.load{
+	background: #000;
+	color: ghostwhite;
+	text-align: center;
+	width: 100%;
+	height: inherit;
+	position: absolute;
+	top:0;
+	left:0;
 }
 iframe{
 	width: 100%;
