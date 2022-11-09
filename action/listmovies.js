@@ -1,5 +1,20 @@
 let movies = [
      {
+         title: "Luca",
+         cover: "/covers/luca.jpg",
+         link: "/watch/Animation/luca-the-movie.html"
+     },
+     {
+         title: "Fruits Basket: Prelude",
+         cover: "/covers/fruits-basket-prelude.png",
+         link: "/watch/Animation/fruit-basket-prelude.html"
+     },
+     {
+         title: "Kimi no Na wa",
+         cover: "/covers/eef9e5ec894741c14ebee78f1472c6e1.jpg",
+         link: "/watch/Animation/Kimi no Nawa.html"
+     },
+     {
 		title: "Spider Man: Homecoming",
 		cover:"https://img.yts.mx/assets/images/movies/spider_man_homecoming_2017/medium-cover.jpg",
 		link:"/watch/movies/spider-man-homecoming.html"
@@ -53,6 +68,8 @@ let movies = [
 ];
 
 let post = $(".postpage");
+let allpost = $(".postall");
+let ul = $(".shuffle");
 for(let i = 0; i < movies.length; i++){
     
     let div = document.createElement("div");
@@ -63,13 +80,40 @@ for(let i = 0; i < movies.length; i++){
     img.setAttribute("src","");
     let h1 = document.createElement("h1");
     
+    let li = document.createElement("li");
+    let a2 = document.createElement("a");
+    a2.setAttribute("hrer","");
+    let img2 = document.createElement("img");
+    img2.setAttribute("src","");
+    let h12 = document.createElement("h1");
+    
     a.href = movies[i].link;
     img.src = movies[i].cover;
     h1.textContent = movies[i].title;
+    
+    a2.href = movies[i].link;
+    img2.src = movies[i].cover;
+    h12.textContent = movies[i].title;
     
     a.appendChild(img);
     a.appendChild(h1);
     div.appendChild(a);
     post.append(div);
+    allpost.append(div);
+    
+    a2.append(img2);
+    a2.append(h12);
+    li.append(a2);
+    ul.append(li);
     
 }
+
+$.fn.randomize = function(selector){
+            var $elems = selector ? $(this).find(selector) : $(this).children();
+            for (var i = $elems.length; i >= 0; i--) {
+    $(this).append($elems[Math.random() * i | 0]);
+            }
+
+          return this;
+        }
+        $(".shuffle").randomize();
