@@ -106,6 +106,9 @@ body{
 .item:nth-of-type(1n+7){
     display: none;
 }
+.postall > item:nth-of-type(1n+7){
+    display: block;
+}
 /* Stream Post */
 .post-content{
     padding: 10px;
@@ -180,6 +183,9 @@ iframe{
 @media screen and (min-width: 800px){
   .item:nth-of-type(1n+14){
     display: none;
+  }
+  .postall > item:nth-of-type(1n+7){
+    display: block;
   }
 	iframe{
 		height: auto;
