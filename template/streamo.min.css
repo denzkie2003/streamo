@@ -81,17 +81,24 @@ body{
     border-radius: 10px;
     position: relative;
 }
-.item a{
+.itemAll{
+    width: 170px;
+    height: 250px;
+    overflow: hidden;
+    border-radius: 10px;
+    position: relative;
+}
+.item a, .itemAll a{
     text-decoration: none;
     color: inherit;
     width: inherit;
     height: inherit;
 }
-.item a img{
+.item a img, .itemAll a img{
     width: inherit;
     height: inherit;
 }
-.item a h1{
+.item a h1, .itemAll a h1{
     font-size: 11pt;
     color: ghostwhite;
     text-align: center;
@@ -105,9 +112,6 @@ body{
 }
 .item:nth-of-type(1n+7){
     display: none;
-}
-.postall > item:nth-of-type(1n+7){
-    display: block;
 }
 /* Stream Post */
 .post-content{
@@ -183,9 +187,6 @@ iframe{
 @media screen and (min-width: 800px){
   .item:nth-of-type(1n+14){
     display: none;
-  }
-  .postall > item:nth-of-type(1n+7){
-    display: block;
   }
 	iframe{
 		height: auto;
