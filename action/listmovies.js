@@ -74,6 +74,8 @@ for(let i = 0; i < movies.length; i++){
     
     let div = document.createElement("div");
     div.setAttribute("class","item");
+    let div2 = document.createElement("div");
+    div2.setAttribute("class","itemAll");
     let a = document.createElement("a");
     a.setAttribute("hrer","");
     let img = document.createElement("img");
@@ -87,6 +89,12 @@ for(let i = 0; i < movies.length; i++){
     img2.setAttribute("src","");
     let h12 = document.createElement("h1");
     
+    let a3 = document.createElement("a");
+    a3.setAttribute("hrer","");
+    let img3 = document.createElement("img");
+    img3.setAttribute("src","");
+    let h13 = document.createElement("h1");
+    
     a.href = movies[i].link;
     img.src = movies[i].cover;
     h1.textContent = movies[i].title;
@@ -95,11 +103,19 @@ for(let i = 0; i < movies.length; i++){
     img2.src = movies[i].cover;
     h12.textContent = movies[i].title;
     
+    a3.href = movies[i].link;
+    img3.src = movies[i].cover;
+    h13.textContent = movies[i].title;
+    
     a.appendChild(img);
     a.appendChild(h1);
     div.appendChild(a);
     post.append(div);
-    allpost.append(div);
+    
+    a3.appendChild(img3);
+    a3.appendChild(h13);
+    div2.appendChild(a3);
+    allpost.append(div2);
     
     a2.append(img2);
     a2.append(h12);
